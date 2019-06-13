@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+
+#box{
+	width:960px;
+	height:1490px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+#products{
+	width:200px;
+	height:299px;
+	margin-top:20px;
+	padding-top:36px;
+	float:left;
+	background-image:url(../images/products_bg.jpg);
+	}
+.div1{
+	width:163px;
+    height:64px;
+	line-height:24px;
+	margin-left:24px;
+	float:left;
+	border-bottom:1px #e2e2e2 dotted;
+	}
+.div2{
+	width:163px;
+	height:67px;
+	padding-top:10px;
+	line-height:24px;
+	margin-left:24px;
+    float:left;
+	border-bottom:1px #e2e2e2 dotted;
+	}
+#qimg{
+	width:520px;
+	height:314px;
+	margin-top:42px;
+	margin-left:20px;
+	float:left;
+	}
+#focusbox{
+	width:200px;
+	height:314px;
+	margin-top:42px;
+	margin-left:20px;
+	float:left;
+	background-image:url(../images/livingfocus.jpg);
+	}
+#focusbox dt{
+	margin-top:250px;
+	margin-left:30px;
+	}
+#type1,#type3{
+	width:478px;
+	height:281px;
+	margin-top:20px;
+	float:left;
+	border:1px #e0dfe0 solid;
+	border-right:none;
+	background-color:#fff;
+	}
+#stylecake,#fkcake{
+	width:68px;
+	height:18px;
+	line-height:20px;
+	margin-top:20px;
+	margin-left:28px;
+	padding-top:4px;
+	float:left;
+	background-image:url(../images/icon1.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom left;
+	padding-left:18px;
+	
+	}
+#line1{
+	width:347px;
+	height:22px;
+	margin-top:20px;
+	float:left;
+	border-bottom:1px #f69c00 solid;
+	}
+#type1_0,#type3_0{
+	width:444px;
+	height:220px;
+	margin-left:16px;
+	margin-top:11px;
+	float:left;
+	}
+#type1_1,#type3_1{
+	width:176px;
+	height:220px;
+	float:left;
+	background-image:url(../images/type1_1.jpg);
+	}
+#type1_img1,#type3_img1{
+	margin-left:16px;
+	margin-top:17px;
+	
+	}
+#type1_1 dt,#type3_1 dt{
+	margin-right:20px;
+	line-height:18px;
+	margin-top:2px;
+	float:right;
+	text-align:center;
+	}
+#type1_2,#type3_2{
+	width:243px;
+	height:138px;
+	margin-left:17px;
+	float:left;
+	}
+.img2_box{
+	width:109px;
+	height:138px;
+    float:left;
+	text-align:center;
+	line-height:20px;
+	}
+.img3_box{
+	width:112px;
+	height:138px;
+	margin-left:22px;
+    float:left;
+	text-align:center;
+	line-height:20px;
+	}
+#type1_3{
+	width:243px;
+	height:63px;
+	float:right;
+	margin-right:8px;
+	
+	background-image:url(../images/type1_3.jpg);
+	}
+#type3_3{
+	width:243px;
+	height:63px;
+	float:right;
+	margin-right:8px;
+	
+	background-image:url(../images/type3_3.jpg);
+	}
+	#fruitcake{
+	width:68px;
+	height:18px;
+	line-height:20px;
+	margin-top:20px;
+	margin-left:28px;
+	padding-top:4px;
+	float:left;
+	background-image:url(../images/icon2.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom left;
+	padding-left:18px;
+	
+	}
+
+#type2,#type3{
+	width:481px;
+	height:283px;
+	float:left;
+	margin-top:20px;
+	background-image:url(../images/type2_bg.jpg);}
+	
+	
+#type2_0,#type4_0{
+	width:444px;
+	height:220px;
+	margin-left:20px;
+	margin-top:11px;
+	float:left;
+	}
+#type2_1,#type4_1{
+	width:172px;
+	height:220px;
+	float:left;
+	background-image:url(../images/type1_1.jpg);
+	}
+#type2_img1,type4_img1{
+	margin-left:16px;
+	margin-top:17px;
+	
+	}
+#type2_1 dt,#type4_1 dt{
+	margin-right:20px;
+	line-height:18px;
+	margin-top:2px;
+	float:right;
+	text-align:center;
+	}
+#type2_2,#type4_2{
+	width:243px;
+	height:138px;
+	margin-left:17px;
+	float:left;
+	}
+#type2_3{
+	width:243px;
+	height:63px;
+	float:right;
+	margin-right:12px;
+	
+	background-image:url(../images/type2_3.jpg);
+	}
+#type4_3{
+	width:243px;
+	height:63px;
+	float:right;
+	margin-right:12px;
+	
+	background-image:url(../images/type4_3.jpg);
+	}
+
+#dg{
+	width:960px;
+	height:162px;
+	margin-top:41px;
+	float:left;
+	
+	background-image:url(../images/dgbg.jpg);
+	}
+#dgdemo{
+	width:892px;
+	height:142px;
+    float:left;
+	margin-top:9px;
+	position: relative;
+	overflow:hidden;
+	}
+#dgdemo ul{
+	width: 1300px;
+	position:relative;
+	height: 142px;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	float: left;
+
+}
+#dgdemo li{
+	margin-left:30px;
+	float:left;}
+.dtmar{
+	margin-left:16px;
+	margin-right:16px;
+	float:left;
+	width:155px;
+	height:142px;
+	}
+.dtmar-2{
+	margin-left:0px;
+	margin-right:16px;
+	float:left;
+	width:155px;
+	height:142px}
+
+#left-j{
+	width:33px;
+	height:115px;
+	padding-top:47px;
+	margin-right:2px;
+	cursor:pointer;
+	float:left;
+}
+#last{
+	margin-right:30px;
+	}
+#right-j{
+    width:33px;
+	height:115px;
+	padding-top:47px;
+	float:right;
+	cursor:pointer;
+	}

@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+#box{
+	width:960px;
+	height:1500px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#top{
+	width:960px;
+	height:80px;
+	float:left;
+	}
+	
+#dh{
+     height:43px;
+     width:879px;
+     padding-left:81px;
+	 float:left;
+	}
+#dh dt{
+	line-height:43px;
+	width:100px;
+	float:left;
+	text-align:center;
+	}
+#dh dt:hover{
+cursor:hand;
+background:#701d0e;
+}
+#m1{
+	width:960px;
+	height:400px;
+	float:left;
+	margin-top:15px;
+	}
+#fresh{
+	width:100%;
+	height:99px;
+	float:left;
+	background-image:url(../images/fresh.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+#m2{
+	width:100%;
+	height:314px;
+	float:left;
+	}
+#m2-left{
+	width:470px;
+	height:314px;
+	float:left;
+	}
+#m2-right{
+	width:480px;
+	height:314px;
+	float:right;}
+#m3{
+	width:296px;
+	height:415px;
+	float:left;
+	margin-top:8px;
+	line-height:20px;
+	background-color:#FFF;
+	}
+#m4{
+	width:664px;
+	height:415px;
+	margin-top:8px;
+	float:right;
+	}
+#m4-top{
+	width:664px;
+	height:210px;
+	float:right;
+	}
+#m4-top img{
+	margin-left:8px;
+	float:left;
+	}
+#m4-buttom{
+	width:655px;
+	height:192px;
+	margin-top:13px;
+	margin-left:8px;
+	float:left;
+	background-color:#FFF;
+	}
+#buttom{
+	width:960px;
+	height:82px;
+	margin-top:35px;
+	padding-top:8px;
+	float:left;
+	line-height:32px;
+	text-align:left;
+	
+	}
+#buttom span{
+	margin-left:20px;
+	}
+#buttom dt{
+
+	width:500px;
+	line-height:40px;
+	float:left;
+	margin-top:10px;
+}
+
+#buttom dd{
+	margin-left:5px;
+	width:455px;
+	line-height:36px;
+	float:left;
+	text-align:left;
+	margin-top:10px;
+	}
+#buttom span{
+	margin-left:120px;}
+	#mid{
+		width:960px;
+		height:1107px;
+		float:left;}
+

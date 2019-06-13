@@ -1,0 +1,322 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/public.css" rel="stylesheet" type="text/css" />
+<link href="css/list.css" rel="stylesheet" type="text/css" />
+</head>
+<script type="text/javascript" src="js/asdf.js"></script>
+<script type="text/javascript" src="js/c.js"></script>
+
+
+
+<!--
+弹窗登录代码开始，用户名文本框ID为:username_input,密码ID为：passwd_input,登录按钮ID为：login_ok，验证码输入框ID为：login_ok  -->
+<div id="hidebg" ></div>
+<div id="hidebox"  >
+<form id="form1" name="form1" method="post" action="">
+<div id="loginleft"><span class="login_font01">账号登陆</span></div>
+<div id="logincenter">
+<div id="username">用户名：</div>
+<div id="username_text">
+<input type="text" name="username_input"  class="login_input1" id="username_input"  style="color:#999" value="请输入用户名"  onfocus="tran('username')" onblur="bour('username')"/></div>
+<div id="passwd">密　码：</div>
+<div id="passwd_text">
+<input type="text"  class="login_input1"  id="passwd_input" style="color:#999" value="请输入密码" onfocus="tran()" onblur="bour()"/></div>
+<div id="check_num">验证码：</div>
+<div id="check_num_text">
+<input type="text"    id="check_input" style="color:#999" value="验证码" onfocus="tran('check')" onblur="bour('check')"/></div>
+<div id="check_img" ><img src="images/check_img.jpg" /></div>
+<div id="check_words" class="login_font02">换一张</div>
+<div id="ok_div"> <input type="image" name="login_ok" id="login_ok" src="images/login_ok.jpg" value="111" /></div>
+<div id="forget">
+<dt class="login_font02"><a href="">忘记密码</a></dt>
+<dd class="login_font02"><a href="register.html">立即注册</a></dd>
+</div><!--forget-->
+</div><!--center--></form>
+<div id="loginright">
+<img src="images/close.jpg" id="close" onClick="hide();" />
+<a href=""><img src="images/ewm.jpg" id="ewm" /></a>
+<dt>扫一扫，有惊喜哦！</dt>
+</div><!--right-->
+</div><!--hidebox  弹窗登录代码结束-->
+
+<div id="box">
+  <div id="top">
+    <div id="top01">
+      <div id="logobox"><img src="images/logo.png" width="49" height="49" /></div>
+      <div id="logowords">
+        <dt class="dtclass01">LeeWW CAKE　HOUSE</dt>
+        <dt class="dtclass02">&nbsp;BEST FOR YOU</dt>
+      </div>
+      <div id="searchbox">
+        <div id="search">
+          <input type="text" name="search_input" id="search_input" />
+          <input type="submit" name="search_ok" id="search_ok" value="搜索" />
+        </div>
+      </div>
+      <div id="nav"> <a href="index.html">
+     
+        <dt>网站首页</dt>
+        </a> <a href="list.html">
+          <dt>蛋糕目录</dt>
+          </a> <a href="customer.html">
+            </a><a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)"><dt>收藏本站</dt></a>
+             <a href="customer.html">
+              <dt>客户中心</dt></a>
+              
+                <dt onClick="show();" style="cursor:pointer">用户登录</dt>
+                <a href="cart.html">
+                  <dt>购物篮子</dt>
+                </a></div>
+      <div id="newsbox">
+        <dt class="smallfont">蛋糕屋网店正式上线！</dt>
+        <dd class="smallfont">水果类蛋糕8折出售！</dd>
+      </div>
+    </div>
+  </div>
+  <div id="left">
+    <div id="left01">
+      <dt class="dt01">蛋糕类别</dt>
+      <dt class="dt02">巧克力蛋糕</dt>
+      <dt class="dt02">乳酪蛋糕</dt>
+      <dt class="dt02">慕斯蛋糕</dt>
+      <dt class="dt01">蛋糕口味</dt>
+      <dt class="dt02">水果类</dt>
+      <dt class="dt02">巧克力类</dt>
+      <dt class="dt02">咖啡类</dt>
+      <dt class="dt02">椰子口味</dt>
+      <dt class="dt01">蛋糕用途</dt>
+      <dt class="dt02">生日蛋糕</dt>
+      <dt class="dt02">婚礼蛋糕</dt>
+      <dt class="dt02">聚会蛋糕</dt>
+    </div>
+    <div id="left02">
+      <div id="imbox1"><img src="images/list_left02im1.jpg" width="80" height="66"  />
+        <dt class="font1">新品</dt>
+        <dt class="smallfont">淡奶香蕉派</dt>
+        <dt class="redfont"><span class="redfont2">好评200</span></dt>
+      </div>
+      <div id="imbox2"><img src="images/list_left02im2.jpg" width="80" height="66"  />
+        <dt class="font1">折扣</dt>
+        <dt class="smallfont">法式布丁蛋糕</dt>
+        <dt class="redfont"><span class="redfont2">好评200</span></dt>
+      </div>
+      <div id="imbox3"><img src="images/list_left02im3.jpg" width="80" height="66"  />
+        <dt class="font1">特色</dt>
+        <dt class="smallfont">芒果慕斯方块</dt>
+        <dt class="redfont"><span class="redfont2">好评200</span></dt>
+      </div>
+    </div>
+    <!--left01-->
+  </div>
+  <div id="right" >
+    <div id="right01" class="font2">
+    <div  id="right01_1">共有100个蛋糕</div>
+    <div id="right01_2" onmouseover="over('down1')" onmouseout="out('down1')">按种类分
+    <div id="down1">
+    <a href=""><div class="options">特色蛋糕</div></a>
+    <a href=""><div class="options">纸杯蛋糕</div></a>
+    <a href=""><div class="options">方块蛋糕</div></a>
+    <a href=""><div class="options">经典派</div></a>
+    </div><!--down1-->
+    </div>
+    <div id="right01_3" onmouseover="over('down2')" onmouseout="out('down2')">按价格分<div id="down2">
+    <a href=""><div class="options">由低到高</div></a>
+    <a href=""><div class="options">由高到底</div></a>
+    
+    </div><!--down2-->
+    </div>
+    
+    <div id="right01_4" onmouseover="over('down3')" onmouseout="out('down3')">按销量分
+    <div id="down3">
+    <a href=""><div class="options">由低到高</div></a>
+    <a href=""><div class="options">由高到底</div></a>
+    </div><!--down3-->
+    </div>
+    </div>
+    <div id="right02">
+    
+
+
+ <!--这里是参考模块-->
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_1.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_2.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_3.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_4.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_5.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_6.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_7.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_8.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_9.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_10.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_11.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_12.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_13.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_14.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_15.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+  <a href="detail.html">
+    <div class="img">
+      <img src="images/list_16.jpg" width="168" height="152" />
+      <div class="imb">
+        <dt>花生奶油蛋糕</dt>
+        <dd>￥100</dd>
+      </div>
+    </div>
+  </a>
+ 
+ 
+      
+    
+    </div>
+    <div id="page">首页　　上一页　　１　　２　　３　　４　　５　　６　　７　　８　　下一页　　尾页</div>
+   
+  </div>
+  <!--left--> <div id="bottom">联系电话：00-000-0000<br />
+Copyright(c) 2015 李雯雯 All right reserved.</div>
+
+</div><!--box-->
+
+<script language="javascript">
+
+function shd(i){
+	
+	document.getElementsByClassName('imb').over();
+	}
+
+
+function over(i){
+	
+	document.getElementById(i).style.display="block";
+}
+function out(i){
+	document.getElementById(i).style.display="none";
+	}
+
+</script> 
+
+<script src="js/public.js"></script>
+
+</body>
+</html>

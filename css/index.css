@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	background-image:url(../images/bodybg.jpg);
+	background-repeat:repeat-x;
+}
+a {
+	text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+	font-size: 14px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+
+.font01{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	color:#000;
+}
+.font02{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:12px;
+	color:#000;
+}
+.font03{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	color:#FFF;
+	}
+.buttom-font{
+    font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	color:#FFF;
+}
+
+
+.span01{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	color:#000;
+	margin-left:15px;
+	}
+.span02{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	color:#000;
+	margin-left:76px;
+	}
+.span03{
+	margin-left:15px;
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	color:#FFF;
+	}
+.span04{
+	margin-left:150px;
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:10px;
+	color:#FFF;
+	}
+ul,li{padding: 0; margin: 0;}
+ul,li{list-style: none;}
+/*705 389*/
+#demo1{ 
+    position: relative;    
+    margin: 0px auto;
+    width: 707px;
+	overflow: hidden;
+	   
+  
+}
+#demo1 .img_list{overflow: hidden; position:inherit; height: 391px;}
+/* 根据图片的张数来设定ul的宽度 */
+.img_list ul{ width: 3500px; position: absolute; height: 391px; left: 0px;}
+.img_list li{ float: left; width: 707px;}
+.img_list img{ margin: 1px; width: 705px; height: 389px;}
+
+/* 缩略图对应样式 */
+.btn_list ul{ position: absolute; right: 20px; bottom: 20px; }
+.btn_list li{ float: left; margin-right: 10px; color: #999; border: 1px solid; }
+.btn_list li:hover,.btn_list li.on{ cursor: pointer; border: 1px solid #E204A4;}
+
+/* 缩略图大小 */
+.btn_list li img{ width: 50px; height: 35px; display: block;}
+
+#demo1 .toLeft,#demo1 .toRight{
+    display: none;
+    position: absolute;
+    width: 20px;
+    height: 30px;    
+    top: 110px;    
+
+}
+
+
+

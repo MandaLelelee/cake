@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+#box{
+	width:960px;
+	height:1371px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#main{
+	width:960px;
+	height:1046px;
+	float:left;
+	}
+#right{
+	width:740px;
+	height:1006px;
+	margin-top:40px;
+	float:right;
+	}
+#detail{
+	width:740px;
+	height:328px;
+	float:right;
+	background-color:#fff;
+	border:1px #eee6dd solid;
+	}
+#detailbox{
+	width:453px;
+	height:297px;
+	float:left;
+	margin-left:20px;
+	margin-top:15px;
+	}
+#detailright{
+	width:224px;
+	height:314px;
+	margin-top:15px;
+	float:right;
+	}
+#titlebox{
+	width:224px;
+	height:30px;
+	float:left;
+	text-align:left;
+	line-height:30px;
+	border-bottom:1px #000 solid;
+	}
+#detailbottom{
+	width:224px;
+	height:273px;
+	padding-top:10px;
+	float:left;
+	}
+
+#libox{
+	width:224px;
+	height:224px;
+	float:left;
+	}
+	#libox li{
+	width:106px;
+	margin-left:5px;
+	line-height:32px;
+	float:left;
+	}
+#libox dt{
+	width:74px;
+	line-height:32px;
+	float:left;
+	}
+#addbox{
+	width:224px;
+	height:39px;
+	padding-top:10px;
+	float:left;
+	}
+
+#inputbox{
+	width:224px;
+	height:49px;
+	float:left;
+	}
+#discuss{
+	width:740px;
+	height:654px;
+	margin-top:20px;
+	float:right;
+	background-color:#fff;
+	border:1px #eee6dd solid;
+	}
+#describe_title{
+	width:700px;
+	height:32px;
+	line-height:25px;
+	float:left;
+	margin-left:24px;
+	margin-top:15px;
+	border-bottom:1px #cacaca solid;
+	}
+#describe_words{
+	width:700px;
+	height:88px;
+	padding-top:30px;
+	line-height:30px;
+	float:left;
+	margin-left:24px;
+
+	}
+#dis_title{
+	width:700px;
+	height:32px;
+	line-height:25px;
+	float:left;
+	margin-left:24px;
+	border-bottom:1px #cacaca solid;
+	}
+#starts{
+	width:700px;
+	height:30px;
+	padding-top:10px;
+	margin-top:10px;
+	float:left;
+	margin-left:24px;
+	}
+#inputbox{
+	width:609px;
+	height:123px;
+	margin-top:10px;
+	margin-left:24px;
+	text-align:left;
+	}
+#user_input{
+	width:599px;
+	height:123px;
+	padding-left:10px;
+	padding-top:10px;
+	outline:none;
+	float:left;
+	border:1px #eaeaea solid;
+	}
+#ok_box{
+	width:609px;
+	height:31px;
+	float:left;
+	padding-top:20px;
+	margin-left:24px;
+	text-align:right;
+	}
+
+#dis_users{
+	width:719px;
+	height:151px;
+	margin-left:6px;
+	margin-top:10px;
+	border:4px #f0f0f0 solid;
+	float:left;
+	}
+#dis_users dt{
+	width:510px;
+	height:44px;
+	line-height:44px;
+	margin-left:10px;
+	border-bottom:1px #eaeaea solid;
+	float:left;
+	}
+#dis_users dd{
+	width:160px;
+	height:44px;
+	line-height:44px;
+	border-bottom:1px #eaeaea solid;
+	float:left;
+	}
+#pagebox{
+	width:609px;
+	height:51px;
+	line-height:50px;
+	margin-left:24px;
+	float:left;
+	text-align:right;
+	}
+	

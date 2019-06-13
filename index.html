@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/public.css" rel="stylesheet" type="text/css" />
+<link href="css/newdiv.css" rel="stylesheet" type="text/css" />
+<link href="css/new.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<!--
+弹窗登录代码开始，用户名文本框ID为:username_input,密码ID为：passwd_input,登录按钮ID为：login_ok，验证码输入框ID为：login_ok  -->
+<div id="hidebg" ></div>
+
+<form id="form1" name="form1" method="post" action=""><div id="hidebox"  >
+
+<div id="loginleft"><span class="login_font01">账号登陆</span></div>
+<div id="logincenter">
+<div id="username">用户名：</div>
+<div id="username_text">
+<input type="text" name="username_input"  class="login_input1" id="username_input"  style="color:#999" value="请输入用户名"  onfocus="tran('username')" onblur="bour('username')"/></div>
+<div id="passwd">密　码：</div>
+<div id="passwd_text">
+<input type="text"  class="login_input1"  id="passwd_input" style="color:#999" value="请输入密码" onfocus="tran()" onblur="bour()"/></div>
+<div id="check_num">验证码：</div>
+<div id="check_num_text">
+<input type="text"    id="check_input" style="color:#999" value="验证码" onfocus="tran('check')" onblur="bour('check')"/></div>
+<div id="check_img" ><img src="images/check_img.jpg" /></div>
+<div id="check_words" class="login_font02"><a href="">换一张</a></div>
+<div id="ok_div"> <input type="image" name="login_ok" id="login_ok" src="images/login_ok.jpg" value="111" /></div>
+<div id="forget">
+<dt class="login_font02"><a href="">忘记密码</a></dt>
+<dd class="login_font02"><a href="register.html">立即注册</a></dd>
+</div><!--forget-->
+</div><!--center-->
+<div id="loginright">
+<img src="images/close.jpg" id="close" onClick="hide();" />
+<a href=""><img src="images/ewm.jpg" id="ewm" /></a>
+<dt>扫一扫，有惊喜哦！</dt>
+</div><!--right-->
+</div><!--hidebox  弹窗登录代码结束--></form>
+
+<div id="box">
+  <div id="top">
+    <div id="top01">
+      <div id="logobox"><img src="images/logo.png" width="49" height="49" /></div>
+      <div id="logowords">
+        <dt class="dtclass01">MAN's CAKE HOUSE</dt>
+        <dt class="dtclass02">&nbsp;BEST FOR YOU</dt>
+      </div>
+      <div id="searchbox">
+        <div id="search">
+          <input type="text" name="search_input" id="search_input" />
+          <input type="submit" name="search_ok" id="search_ok" value="搜索" />
+        </div>
+      </div>
+      <div id="nav"> <a href="index.html">
+        <dt>网站首页</dt>
+        </a> <a href="list.html">
+          <dt>蛋糕目录</dt>
+          </a> <a href="customer.html">
+            </a><a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)"><dt>收藏本站</dt></a>
+             <a href="customer.html">
+              <dt>客户中心</dt></a>
+
+                <dt onClick="show();" style="cursor:pointer">用户登录</dt>
+                <a href="cart.html">
+                  <dt>购物篮子</dt>
+                </a></div>
+      <div id="newsbox">
+        <dt class="smallfont">蛋糕屋网店正式上线！</dt>
+        <dd class="smallfont">水果类蛋糕8折出售！</dd>
+      </div>
+    </div>
+  </div>
+  <div  id="products">
+    <div class="div1"><span class="redfont">特色蛋糕</span><br />
+      <span class="smallfont">香蕉　　草莓　　忌廉</span>
+      <p></p>
+    </div>
+    <div class="div2"><span class="redfont">纸杯蛋糕</span><br />
+      <span class="smallfont">奶酪　　水果　　麦芬</span> </div>
+    <div class="div2"><span class="redfont">方块蛋糕</span><br />
+      <span class="smallfont">红豆　　夹心　　巧克力</span> </div>
+    <div class="div2"><span class="redfont">经典派</span><br />
+    <span class="smallfont">南瓜　　椰风　　布丁</span> </div>
+  </div>
+  <div id="qimg">
+  <div id="demo1">
+      <div class="img_list">
+        <ul>
+          <li><a href="detail.html" target="_blank"><img src="images/qimg1.jpg" alt="" /></a></li>
+          <li><a  href="detail.html" target="_blank"><img src="images/qimg2.jpg" alt="" /></a></li>
+          <li><a  href="detail.html" target="_blank"><img src="images/qimg3.jpg" alt="" /></a></li>
+          <li><a  href="detail.html" target="_blank"><img src=images/qimg4.jpg alt="" /></a></li>
+        </ul>
+      </div>
+      <div class="btn_list">
+        <ul>
+        </ul>
+      </div>
+    </div><!--demo1-->
+  </div><!--qimg-->
+  <div id="focusbox">
+    <dt>记录着我们生活的点滴</dt>
+  </div>
+  <div id="type1">
+    <div class="type1_font" id="stylecake">特色蛋糕</div>
+    <div id="line1"></div>
+    <div id="type1_0">
+      <div id="type1_1"><a href="detail.html"><img src="images/type1_img1.jpg" name="type1_img1" width="141" height="151" id="type1_img1" /></a>
+        <dt class="smallfont">红色芝士蛋糕<br />
+          ￥100 </dt>
+      </div>
+      <div id="type1_2">
+        <div class="img2_box"><a href="detail.html"><img src="images/type_img2.jpg" width="109" height="93" /></a><br />
+          <span class="smallfont">酱爆奶油蛋糕</span><br />
+          <span class="smallfont_orange">￥250</span></div>
+        <div class="img3_box"><a href="detail.html"><img src="images/type_img3.jpg" width="109" height="93" /></a><br />
+          <span class="smallfont">核桃花生蛋糕</span><br />
+          <span class="smallfont_orange">￥190</span></div>
+      </div>
+      <div id="type1_3"><a href="list.html">
+        <dt class="morecake">更多蛋糕</dt>
+      </a></div>
+    </div>
+  </div>
+  <div id="type2">
+    <div class="type2_font" id="fruitcake">纸杯蛋糕</div>
+    <div id="line1"></div>
+    <div id="type2_0">
+      <div id="type2_1"><a href="detail.html"><img src="images/type2_img1.jpg" name="type2_img1" width="141" height="151" id="type2_img1" /></a>
+        <dt class="smallfont">黑森林纸杯蛋糕<br />
+          ￥100 </dt>
+      </div>
+      <div id="type2_2">
+        <div class="img2_box"> <a href="detail.html"><img src="images/type2_img2.jpg" width="109" height="93" /></a><br />
+          <span class="smallfont">红丝绒纸杯蛋糕</span><br />
+          <span class="smallfont_orange">￥250</span></div>
+        <div class="img3_box"><a href="detail.html"><img src="images/type2_img3.jpg" width="109" height="93" /></a><br />
+          <span class="smallfont">核桃花生蛋糕</span><br />
+          <span class="smallfont_orange">￥190</span></div>
+      </div>
+      <div id="type2_3"><a href="list.html">
+        <dt class="morecake">更多蛋糕</dt>
+      </a></div></div>
+</div>
+ <div id="type1">
+    <div class="type1_font" id="stylecake">方块蛋糕</div>
+    <div id="line1"></div>
+    <div id="type3_0">
+      <div id="type3_1"><a href="detail.html"><img src="images/type3_img1.jpg" name="type1_img1" width="141" height="151" id="type1_img1" /></a>
+        <dt class="smallfont">克鲁兹方块蛋糕<br />
+          ￥100 </dt>
+      </div>
+      <div id="type1_2">
+        <div class="img2_box"> <a href="detail.html"><img src="images/type3_img2.jpg" width="109" height="93" /></a><br />
+          <span class="smallfont">朗姆芝士方块蛋糕</span><br />
+        <span class="smallfont_orange">￥250</span></div>
+        <div class="img3_box"><a href="detail.html"><img src="images/type3_img3.jpg" width="109" height="93" /></a><br />
+          <span class="smallfont">芒果慕斯方块蛋糕</span><br />
+        <span class="smallfont_orange">￥190</span></div>
+      </div>
+      <div id="type3_3"><a href="list.html">
+        <dt class="morecake">更多蛋糕</dt>
+      </a></div>
+    </div>
+  </div>
+  <div id="type2">
+    <div class="type2_font" id="fruitcake">经典派</div>
+    <div id="line1"></div>
+    <div id="type4_0">
+      <div id="type4_1"><a href="detail.html"><img src="images/type4_img1.jpg" name="type2_img1" width="141" height="151" id="type2_img1" /></a>
+        <dt class="smallfont">经典苹果派 <br />
+        ￥100 </dt>
+      </div>
+      <div id="type2_2">
+        <div class="img2_box"> <a href="detail.html"><img src="images/type4_img2.jpg" width="109" height="93" /></a><br />
+          <span class="smallfont">淡奶香蕉派</span><br />
+        <span class="smallfont_orange">￥250</span></div>
+        <div class="img3_box"><a href="detail.html"><img src="images/type4_img3.jpg" width="109" height="93" /></a><br />
+          <span class="smallfont">蓝莓乳酪派</span><br />
+        <span class="smallfont_orange">￥190</span></div>
+      </div>
+      <div id="type4_3"><a href="list.html">
+        <dt class="morecake">更多蛋糕</dt>
+      </a></div></div>
+</div>
+  <div id="dg">
+    <div id="left-j" ><a><img src="images/left-j.png" name="leftarr" width="33" height="84" id="LeftArr" /></a></div>
+    <div id="dgdemo">
+      <ul >
+        <dt class="dtmar-2"><a href="detail.html" target="_blank"><img src="images/1.jpg" alt="" id="first" /></a></dt>
+        <dt class="dtmar"><a href="detail.html" target="_blank"><img src="images/2.jpg" alt="" id="se" /></a></dt>
+        <dt class="dtmar"><a href="detail.html" target="_blank"><img src="images/3.jpg" alt="" /></a></dt>
+        <dt class="dtmar"><a href="detail.html" target="_blank"><img src=images/4.jpg alt="" /></a></dt>
+        <dt class="dtmar"><a href="detail.html" target="_blank"><img src=images/5.jpg alt="" /></a></dt>
+        <dt class="dtmar"><a href="detail.html" target="_blank"><img src=images/6.jpg alt="" /></a></dt>
+        <dt class="dtmar"><a href="detail.html" target="_blank"><img src=images/7.jpg alt="" /></a></dt>
+        <dt id="last"><a href="detail.html" target="_blank"><img src=images/8.jpg alt="" /></a></dt>
+      </ul>
+    </div>
+    <div id="right-j"><img src="images/right-j.png"  id="RightArr" /></div>
+  </div>
+<div id="bottom">联系电话：00-000-0000<br />
+Copyright(c) 2016 李雯雯 All right reserved.</div>
+
+</div>
+<!--返回顶部-->
+<!--<div id="totopbox">
+<div id="totop" onclick="up()">
+<img src="images/totop.png" /></div>
+<div id="toup"><span onclick="href()">投一票</span></div>
+</div>
+-->
+
+
+
+</body>
+
+<script src="js/jquery.js"></script>
+
+
+ <script language="javascript">
+    var index = 0;
+    var timer = 0;
+    var ulist = $('.img_list ul');
+    var blist = $('.btn_list ul');
+    var list = ulist.find('li');
+    var llength = list.length;//li的个数，用来做边缘判断
+    var lwidth = $(list[0]).width();//每个li的长度，ul每次移动的距离
+    var uwidth = llength * lwidth;//ul的总宽度
+    addBtn(list);
+
+
+	    //初始化描述
+        var text = ulist.find('li').eq(0).find('img').attr('alt');
+        var link = ulist.find('li').eq(0).find('a').attr('href');
+        auto();
+
+
+    function auto(){
+        //定时器
+        timer = setInterval("doMove('toRight')",4000);
+
+        $('.img_list li, .btn_list li').hover(function() {
+            clearInterval(timer);
+        }, function() {
+            timer = setInterval("doMove('toRight')",4000);
+        });
+    }
+
+
+
+    function changeBtn(i){   //红框跳到指定缩略图
+        blist.find('li').eq(i).addClass('on').siblings().removeClass('on');
+       }
+
+
+   function addBtn (list){
+        for (var i = 0; i < list.length; i++) {
+            var imgsrc = $(list[i]).find('img').attr('src');
+            var listCon = '<li><img src="'+imgsrc+'"">';
+            $(listCon).appendTo(blist);
+            //隐藏button中的数字
+
+        };
+
+        blist.find('li').first().addClass('on');
+        blist.find('li').click(function(event) {
+            var _index = $(this).index();
+            doMove(_index);
+        });
+    }
+
+       function doMove(direction){
+        //向右按钮
+        if (direction =="toRight") {
+            index++;
+            if ( index< llength) {
+                uwidth = lwidth *index;
+                ulist.css('left',-uwidth);
+                //ulist.animate({left: -uwidth}, 1000);
+
+            }else{
+                ulist.css('left','0px');
+                index = 0;
+            };
+        //向左按钮
+        }else if(direction =="toLeft"){
+            index--;
+            if ( index < 0) {
+                index = llength - 1;
+            }
+            uwidth = lwidth *index;
+            ulist.css('left',-uwidth);
+            //ulist.animate({left: -uwidth}, "slow");
+        //点击数字跳转
+        }else{
+            index = direction;
+            uwidth = lwidth *index;
+            ulist.css('left',-uwidth);
+        };
+        changeBtn(index);
+    }
+    init();
+</script>
+
+
+
+
+<script src="js/public.js"></script>
+<script src="js/index.js"></script>
+
+<script language=javascript type=text/javascript>
+  <!--//--><![CDATA[//><!--
+  var scrollPic_02 = new ScrollPic();
+  scrollPic_02.scrollContId   = "dgdemo"; //内容容器ID
+  scrollPic_02.arrLeftId      = "RightArr";//左箭头ID
+  scrollPic_02.arrRightId     = "LeftArr"; //右箭头ID
+  scrollPic_02.frameWidth     = 890;//显示框宽度
+  scrollPic_02.pageWidth      = 185; //翻页宽度
+  scrollPic_02.speed          = 10; //移动速度(单位毫秒，越小越快)
+  scrollPic_02.space          = 3; //每次移动像素(单位px，越大越快)
+  scrollPic_02.autoPlay       = false; //自动播放
+  scrollPic_02.autoPlayTime   = 3; //自动播放间隔时间(秒)
+  scrollPic_02.initialize(); //初始化
+  //--><!]]>
+
+
+
+</script>
+</html>

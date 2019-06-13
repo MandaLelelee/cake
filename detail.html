@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/public.css" rel="stylesheet" type="text/css" />
+<link href="css/detail.css" rel="stylesheet" type="text/css" />
+<link href="css/detaildiv.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!--
+弹窗登录代码开始，用户名文本框ID为:username_input,密码ID为：passwd_input,登录按钮ID为：login_ok，验证码输入框ID为：login_ok  -->
+<div id="hidebg" ></div>
+<form id="form1" name="form1" method="post" action="">
+<div id="hidebox">
+
+<div id="loginleft"><span class="login_font01">账号登陆</span></div>
+<div id="logincenter">
+<div id="username">用户名：</div>
+<div id="username_text">
+<input type="text" name="username_input"  class="login_input1" id="username_input"  style="color:#999" value="请输入用户名"  onfocus="tran('username')" onblur="bour('username')"/></div>
+<div id="passwd">密　码：</div>
+<div id="passwd_text">
+<input type="text"  class="login_input1"  id="passwd_input" style="color:#999" value="请输入密码" onfocus="tran()" onblur="bour()"/></div>
+<div id="check_num">验证码：</div>
+<div id="check_num_text">
+<input type="text"    id="check_input" style="color:#999" value="验证码" onfocus="tran('check')" onblur="bour('check')"/></div>
+<div id="check_img" ><img src="images/check_img.jpg" /></div>
+<div id="check_words" class="login_font02">换一张</div>
+<div id="ok_div"> <input type="image" name="login_ok" id="login_ok" src="images/login_ok.jpg" value="111" /></div>
+<div id="forget">
+<dt class="login_font02"><a href="">忘记密码</a></dt>
+<dd class="login_font02"><a href="register.html">立即注册</a></dd>
+</div><!--forget-->
+</div><!--center-->
+<div ifd="loginright">
+<img src="images/close.jpg" id="close" onClick="hide();" />
+<a href=""><img src="images/ewm.jpg" id="ewm" /></a>
+<dt>扫一扫，有惊喜哦！</dt>
+</div><!--right-->
+</div><!--hidebox  弹窗登录代码结束-->
+</form>
+
+<div id="box">
+  <div id="top">
+    <form id="search_form" name="search_form" method="post" action="">
+    <div id="top01">
+      <div id="logobox"><img src="images/logo.png" width="49" height="49" /></div>
+      <div id="logowords">
+        <dt class="dtclass01">LeeWW CAKE　HOUSE</dt>
+        <dt class="dtclass02">&nbsp;BEST FOR YOU</dt>
+      </div>
+      <div id="searchbox">
+        <div id="search">
+          <input type="text" name="search_input" id="search_input" />
+          <input type="submit" name="search_ok" id="search_ok" value="搜索" />
+        </div>
+      </div>
+      <div id="nav"> <a href="index.html">
+        <dt>网站首页</dt>
+        </a> <a href="list.html">
+          <dt>蛋糕目录</dt>
+          </a> <a href="customer.html">
+            </a><a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)"><dt>收藏本站</dt></a>
+             <a href="customer.html">
+              <dt>客户中心</dt></a>
+              
+                <dt onClick="show();" style="cursor:pointer">用户登录</dt>
+                <a href="cart.html">
+                  <dt>购物篮子</dt>
+                </a></div>
+      <div id="newsbox">
+        <dt class="smallfont">蛋糕屋网店正式上线！</dt>
+        <dd class="smallfont">水果类蛋糕8折出售！</dd>
+      </div>
+    </div>
+    </form>
+  </div>
+<div id="main">
+<div id="left">
+    <div id="left01">
+      <dt class="dt01">蛋糕类别</dt>
+      <dt class="dt02">巧克力蛋糕</dt>
+      <dt class="dt02">乳酪蛋糕</dt>
+      <dt class="dt02">慕斯蛋糕</dt>
+      <dt class="dt01">蛋糕口味</dt>
+      <dt class="dt02">水果类</dt>
+      <dt class="dt02">巧克力类</dt>
+      <dt class="dt02">咖啡类</dt>
+      <dt class="dt02">椰子口味</dt>
+      <dt class="dt01">蛋糕用途</dt>
+      <dt class="dt02">生日蛋糕</dt>
+      <dt class="dt02">婚礼蛋糕</dt>
+      <dt class="dt02">聚会蛋糕</dt>
+    </div>
+    <div id="left02">
+      <div id="imbox1"><img src="images/list_left02im1.jpg" width="80" height="66"  />
+        <dt class="font1">新品</dt>
+        <dt class="smallfont">淡奶香蕉派</dt>
+        <dt class="redfont"><span class="redfont2">好评200</span></dt>
+      </div>
+      <div id="imbox2"><img src="images/list_left02im2.jpg" width="80" height="66"  />
+        <dt class="font1">折扣</dt>
+        <dt class="smallfont">法式布丁蛋糕</dt>
+        <dt class="redfont"><span class="redfont2">好评200</span></dt>
+      </div>
+      <div id="imbox3"><img src="images/list_left02im3.jpg" width="80" height="66"  />
+        <dt class="font1">特色</dt>
+        <dt class="smallfont">芒果慕斯方块</dt>
+        <dt class="redfont"><span class="redfont2">好评200</span></dt>
+      </div>
+    </div>
+    <!--left01-->
+  </div>
+
+<div id="right">
+<form id="form2" name="form2" method="post" action="">
+  <div id="detail">
+    <div id="detailbox"><img src="images/showimg_1.jpg" width="453" height="297" /></div>
+    <div id="detailright">
+      <div id="libox">
+        <div id="titlebox">淡奶香蕉挞</div>
+        <div id="detailbottom">
+          <div id="libox">
+            <li>价格</li>
+            <dt>：￥250</dt>
+            <li>蛋糕编号</li>
+            <dt>：A01</dt>
+            <li>类别</li>
+            <dt>：纸杯蛋糕</dt>
+            <li>尺寸</li>
+            <dt>：15寸</dt>
+            <li>送货范围</li>
+            <dt>：250公里</dt>
+            <li>是否优惠</li>
+            <dt>：9折优惠</dt>
+            <li>生产厂家</li>
+            <dt>：</dt>
+          </div><div id="addbox"><img src="images/detail_jian.jpg" name="down" width="30" height="28" id="down" style="cursor:pointer"  onclick="jian()"/><input name="input1" type="text" id="input1" value="1" maxlength="2" /><img src="images/detail_jia.jpg" name="up" width="30" height="28" id="up" style="cursor:pointer"  onclick="jia()"/>
+            <input type="submit" name="add" id="add" value="加入购物篮" />
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div></form>
+  <form id="dis_form" name="dis_form" method="post" action="">
+  <div id="discuss">
+    <div id="describe_title">蛋糕描述</div>
+    <div id="describe_words">　　亚热带的风情阳光雨露全年40%的湿度来自泰国的香芒 一口畅享所有的热情酸甜可口层层惊喜为你注入青春活力爱芒果的你，怎能拒绝如此诱惑？ 这里存放蛋糕描述</div>
+    <div id="dis_title">用户评价
+      
+    </div>
+    <div id="starts">
+      <input name="radio" type="radio" id="radio" value="5" checked="checked" />
+      <img src="images/start_fiv.jpg" width="59" height="10" /> 　
+      <input type="radio" name="radio" id="radio2" value="4" />
+      <img src="images/start_fou.jpg" width="48" height="10" />　
+      <input type="radio" name="radio" id="radio3" value="3" />
+      <img src="images/start_thr.jpg" width="35" height="10" /> 　
+      <input type="radio" name="radio" id="radio4" value="2" />
+      <img src="images/start_two.jpg" width="23" height="10" /> 　
+      <input type="radio" name="radio" id="radio5" value="1" />
+      <img src="images/start_one.jpg" width="11" height="10" /></div>
+  <div id="inputbox">
+  <textarea name="user_input" id="user_input" cols="45" rows="5"></textarea>
+  </div>
+  <div id="ok_box">
+    <input type="submit" name="ok" id="ok" value="发表" />
+  </div>
+  <div id="dis_users">
+    <!--用户评价部分单个模块-->
+    <dt>紫色风铃： <span class="font_12px">超好！这是我最喜欢的一个蛋糕 </span></dt>
+    <dd><img src="images/start_fiv.jpg" width="59" height="10" />　<span class="font_12px">　2015 12 12</span></dd>
+    <!--用户评价部分单个模块结束-->
+    <!--用户评价部分单个模块-->
+    <dt>紫色风铃： <span class="font_12px">超好！这是我最喜欢的一个蛋糕 </span></dt>
+    <dd><img src="images/start_fiv.jpg" width="59" height="10" />　<span class="font_12px">　2015 12 12</span></dd>
+    <!--用户评价部分单个模块结束-->
+    <!--用户评价部分单个模块-->
+    <dt>紫色风铃： <span class="font_12px">超好！这是我最喜欢的一个蛋糕 </span></dt>
+    <dd><img src="images/start_fiv.jpg" width="59" height="10" />　<span class="font_12px">　2015 12 12</span></dd>
+    <!--用户评价部分单个模块结束-->
+  </div>
+  <div id="pagebox"><span class="font_12px">共有12个用户参与了评价</span>　　<a href="">首页</a>　　<a href="">上一页</a>　　<a href="">下一页</a>　　<a href="">尾页</a></div>
+  </div></form>
+</div>
+
+</div>
+<div id="bottom">联系电话：00-000-0000<br />
+Copyright(c) 2015 李雯雯 All right reserved.</div>
+</div>
+
+<script>
+function show()  //显示隐藏层和弹出层 
+{ 
+   var hideobj=document.getElementById("hidebg"); 
+   hidebg.style.display="block";  //显示隐藏层 
+   hidebg.style.height=document.body.clientHeight+"px";  //设置隐藏层的高度为当前页面高度 
+   document.getElementById("hidebox").style.display="block";  //显示弹出层 
+} 
+function hide()  //去除隐藏层和弹出层 
+{ 
+   document.getElementById("hidebg").style.display="none"; 
+   document.getElementById("hidebox").style.display="none"; 
+  
+} 
+//以下代码实现单击密码框变为密码
+var i;
+function tran(i){     //焦点事件
+     if(i=="username"){
+    if(form1.username_input.value=="请输入用户名"){
+	form1.username_input.value='',this.style.color='#000000';
+}
+
+	 }else if(i=="check"){
+	if(form1.check_input.value=="验证码"){
+	form1.check_input.value='',this.style.color='#000000';
+}
+		 
+		 }else{
+
+	if(form1.passwd_input.value=="请输入密码"){
+	this.form1.passwd_input.type="password";
+	form1.passwd_input.value='',this.style.color='#000000';
+	}
+	}
+}
+	function bour(i){   //离开焦点事件
+	if(i=="username"){
+	if(form1.username_input.value==""){
+		form1.username_input.value='请输入用户名',this.style.color='#999';
+		}}else if(i=="check"){
+			if(form1.check_input.value==""){
+		form1.check_input.value='验证码',this.style.color='#999';
+		}
+			
+			}else{
+	
+	if(form1.passwd_input.value==""){
+	this.form1.passwd_input.type="text";
+	form1.passwd_input.value='请输入密码',this.style.color='#999';
+	}
+		
+	}
+	}var input1=document.getElementById('input1');
+function jian(){
+	
+	
+	
+	
+	if(input1.value<=1){input1.value=1;}else{input1.value--;}
+	}
+	function jia(){
+	
+	
+	if(input1.value>=9){input1.value=9;}else{input1.value++;}
+	}
+
+</script> 
+ 
+<script src="js/public.js"></script>
+</body>
+</html>

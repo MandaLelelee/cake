@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:"Microsoft YaHei UI";
+	font-size:14px;
+	color:#000;
+	text-align:left;
+	margin:0px;
+	background-image:url(../images/recombg.jpg);
+	background-repeat:repeat-x;
+	}
+a {
+	text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+	font-size: 14px;
+	color:#FFF;
+
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.font02{
+
+	font-family:"Microsoft YaHei UI";
+	font-size:14px;
+	color:#000;
+
+	}
+.font01{
+	font-family:"Microsoft YaHei UI";
+	font-size:14px;
+	color:#FFF;}

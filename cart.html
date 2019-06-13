@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/cart.css" rel="stylesheet" type="text/css" />
+<link href="css/cartdiv.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="con">
+<div id="box">
+<div id="center00"><a href="index.html">主页</a>  &gt;  <a href="list.html">蛋糕目录</a>  &gt;  购物篮子</div>
+<form name="form1" id="form1" method="post" action="">
+<div id="center">
+  <div id="centertop">
+    <dt class="dt1"><b>商品编号</b></dt>
+    <dt class="dt2"><b>商品名称</b></dt>
+    <dt class="dt3"><b>单价</b></dt>
+    <dt class="dt4"><b>数量</b></dt>
+    <dt class="dt5"><b>总价</b></dt>
+  </div>
+
+
+  <!--循环输出单个商品模块开始-->
+  <div id="dtbox">
+
+   <div class="center">
+      <dt class="dt1">A101</dt>
+      <dt class="dt2">巧克力奶油蛋糕</dt>
+      <dt class="dt3">￥98</dt>
+      <dt class="dt4">　1</dt>
+      <dt class="dt5">￥98　　删除</dt>
+     </div>
+  </div>  
+  <!--单个商品模块结束-->
+
+   <!--购物篮为空时输出以下内容
+   
+   <div class="center">
+      <dt class="dt2">　　当前购物车空空如也~　　<a href="">去逛逛</a></dt>
+       </div></div> 
+       购物篮为空时内容-->
+  
+  <div id="center_bottom">
+    <dt class="dt1"><a href="">清空购物篮</a></dt>
+    <dt class="dt6">共有1件商品　　总计：<span class="redfont">￥98</span></dt>
+  </div>
+</div>
+<div id="okbox">
+  <input type="image" name="ok" id="ok" src="images/cart_ok.jpg" />
+</div>
+
+<div id="wordsbox">精心推荐</div>
+<div id="imgbox">
+<div class="img1">
+<a href=""><img src="images/cart_im1.jpg" width="207" height="196" /></a><div class="hide" ><dt>花生奶油蛋糕</dt>
+<dd>￥100</dd>
+</div>
+</div>
+<div class="img">
+<a href=""><img src="images/cart_im2.jpg" width="207" height="196" /></a>
+<div class="hide"><dt>香芒奶油蛋糕</dt>
+<dd>￥100</dd>
+</div>
+</div>
+<div class="img"><a href=""><img src="images/cart_im3.jpg" width="207" height="196" /></a>
+<div class="hide"><dt>香芒奶油蛋糕</dt>
+<dd>￥100</dd></div>
+</div>
+</div>
+<!--center-->
+</form>
+</div><!--box2-->
+</div>
+
+</body>
+<script language="javascript">
+function show(i)  //显示隐藏层和弹出层 
+{ 
+   hide=i;
+   var hide=document.getElementById(i); 
+   hide.style.display="block";  //显示隐藏层 
+   
+} 
+function hide(i)  //去除隐藏层和弹出层 
+{ 
+   document.getElementById(i).style.display="none"; 
+   
+  
+} 
+</script>
+</html>

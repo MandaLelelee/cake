@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/public.css" rel="stylesheet" type="text/css" />
+<link href="css/custo.css" rel="stylesheet" type="text/css" />
+<link href="css/custodiv.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!--
+弹窗登录代码开始，用户名文本框ID为:username_input,密码ID为：passwd_input,登录按钮ID为：login_ok，验证码输入框ID为：login_ok  -->
+<div id="hidebg" ></div>
+<div id="hidebox"  >
+<form id="form1" name="form1" method="post" action="">
+<div id="loginleft"><span class="login_font01">账号登陆</span></div>
+<div id="logincenter">
+<div id="username">用户名：</div>
+<div id="username_text">
+<input type="text" name="username_input"  class="login_input1" id="username_input"  style="color:#999" value="请输入用户名"  onfocus="tran('username')" onblur="bour('username')"/></div>
+<div id="passwd">密　码：</div>
+<div id="passwd_text">
+<input type="text"  class="login_input1"  id="passwd_input" style="color:#999" value="请输入密码" onfocus="tran()" onblur="bour()"/></div>
+<div id="check_num">验证码：</div>
+<div id="check_num_text">
+<input type="text"    id="check_input" style="color:#999" value="验证码" onfocus="tran('check')" onblur="bour('check')"/></div>
+<div id="check_img" ><img src="images/check_img.jpg" /></div>
+<div id="check_words" class="login_font02">换一张</div>
+<div id="ok_div"> <input type="image" name="login_ok" id="login_ok" src="images/login_ok.jpg" value="111" /></div>
+<div id="forget">
+<dt class="login_font02"><a href="">忘记密码</a></dt>
+<dd class="login_font02"><a href="register.html">立即注册</a></dd>
+</div><!--forget-->
+</div><!--center--></form>
+<div id="loginright">
+<img src="images/close.jpg" id="close" onClick="hide();" />
+<a href=""><img src="images/ewm.jpg" id="ewm" /></a>
+<dt>扫一扫，有惊喜哦！</dt>
+</div><!--right-->
+</div><!--hidebox  弹窗登录代码结束-->
+
+<div id="box">
+  <div id="top">
+    <div id="top01">
+      <div id="logobox"><img src="images/logo.png" width="49" height="49" /></div>
+      <div id="logowords">
+        <dt class="dtclass01">LeeWW CAKE　HOUSE</dt>
+        <dt class="dtclass02">&nbsp;BEST FOR YOU</dt>
+      </div>
+      <div id="searchbox">
+        <div id="search">
+          <input type="text" name="search_input" id="search_input" />
+          <input type="submit" name="search_ok" id="search_ok" value="搜索" />
+        </div>
+        </div>
+        <div id="loginstate"><a href="" class="redfont">注销登录</a></div>
+        <div id="nav"> <a href="index.html">
+        <dt>网站首页</dt>
+        </a> <a href="list.html">
+          <dt>蛋糕目录</dt>
+          </a> <a href="customer.html">
+            </a><a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)"><dt>收藏本站</dt></a>
+             <a href="customer.html">
+              <dt>客户中心</dt></a>
+              
+                <dt onClick="show();" style="cursor:pointer">用户登录</dt>
+                <a href="cart.html">
+                  <dt>购物篮子</dt>
+                </a></div>
+      <div id="newsbox">
+        <dt class="smallfont">蛋糕屋网店正式上线！</dt>
+        <dd class="smallfont">水果类蛋糕8折出售！</dd>
+      </div>
+    </div>
+  </div>
+  <div id="left">
+    <div id="left01">
+      <dt class="dt01">蛋糕类别</dt>
+      <dt class="dt02">巧克力蛋糕</dt>
+      <dt class="dt02">乳酪蛋糕</dt>
+      <dt class="dt02">慕斯蛋糕</dt>
+      <dt class="dt01">蛋糕口味</dt>
+      <dt class="dt02">水果类</dt>
+      <dt class="dt02">巧克力类</dt>
+      <dt class="dt02">咖啡类</dt>
+      <dt class="dt02">椰子口味</dt>
+      <dt class="dt01">蛋糕用途</dt>
+      <dt class="dt02">生日蛋糕</dt>
+      <dt class="dt02">婚礼蛋糕</dt>
+      <dt class="dt02">聚会蛋糕</dt>
+    </div>
+    <div id="left02">
+      <div id="imbox1"><img src="images/list_left02im1.jpg" width="80" height="66"  />
+        <dt class="font1">新品</dt>
+        <dt class="smallfont">淡奶香蕉派</dt>
+        <dt class="redfont"><span class="redfont2">好评200</span></dt>
+      </div>
+      <div id="imbox2"><img src="images/list_left02im2.jpg" width="80" height="66"  />
+        <dt class="font1">折扣</dt>
+        <dt class="smallfont">法式布丁蛋糕</dt>
+        <dt class="redfont"><span class="redfont2">好评200</span></dt>
+      </div>
+      <div id="imbox3"><img src="images/list_left02im3.jpg" width="80" height="66"  />
+        <dt class="font1">特色</dt>
+        <dt class="smallfont">芒果慕斯方块</dt>
+        <dt class="redfont"><span class="redfont2">好评200</span></dt>
+      </div>
+    </div>
+    <!--left01-->
+  </div>
+  <div id="right">
+    <div id="customercenter"></div>
+    <div id="service">
+    <dt>客户服务</dt>
+    <li class="smallfont">完整的配送与售后服务</li>
+    <li class="smallfont">绝对新鲜的蛋糕</li>
+    <li class="smallfont">200公里以内免运费</li>
+    <li class="smallfont">产品包退服务</li>
+    <li class="smallfont">首次消费9折服务</li>
+    <li class="smallfont">消费10次额外赠送一个</li>
+    <li class="smallfont">首次购物有小礼品</li>
+    
+    </div>
+    <div id="history">
+      <dt class="historydt1">消费记录</dt>
+      
+     <dd class="historydd1"></dd>
+<!--消费记录-->
+     <div id="null">
+    <!-- 为空时输出--><!--
+     <br /><br />
+
+    当前还没有任何消费记录！-->
+    
+      <!--单个商品模块-->
+      
+      <dt class="dt"><span class="font_12px">大地女神恩赐蛋糕</span></dt>
+      <dd class="dd"><span class="font_12px">2015 12 31</span></dd>
+      
+      <!--单个商品模块-->
+      </div>
+      <!--查询订单-->
+      <div id="select">
+      <div class="font_12px" id="select_word">
+      查询订单：
+      </div>
+      <input type="text" name="select_input" id="selet_input" />
+      <input type="submit" name="select_ok" id="select_ok" value="查询" />
+      </div>
+    </div>
+      <div id="update">
+      <div id="update01">账户信息</div>
+      <div id="update02">修改密码</div>
+      <div id="update03">用户名：李雯雯<br />
+        E-mail：123456789@qq.com </div>
+      <div id="update04">
+        <div id="update4_words">&nbsp;原密码：<br />
+          新密码：<br />
+          确认密码：</div>
+        <p>
+          <input type="text" name="textfield" id="textfield"  class="updateinput"/>
+          <input type="password" name="textfield" id="textfield"  class="updateinput"/>
+          <input type="password" name="textfield" id="textfield"  class="updateinput2"/>
+        </p>
+        <p>
+          <input type="submit" name="sure" id="sure" value="提交" />
+        </p>
+      </div>
+    </div>
+    <div id="hotbox">
+      <div id="hot-top">热门推荐</div>
+      <div id="hotim1"><img src="images/hotim1.jpg" width="181" height="160" /><br />
+        红丝绒蛋糕<span class="hotfont02">　￥200</span>
+      </div>
+      <div id="hotim2"><img src="images/hotim2.jpg" width="181" height="160" /><br />
+      红丝绒纸杯蛋糕<span class="hotfont02">　￥200</span>      </div>
+      <div id="hotim3"><img src="images/hotim3.jpg" width="181" height="160" /><br />
+      黄桃布丁挞<span class="hotfont02">　￥200</span></div>
+    </div>
+  </div>
+  <!--left-->
+  
+  
+  <div id="bottom">联系电话：00-000-0000<br />
+Copyright(c) 2015 李雯雯 All right reserved.</div>
+  </div><!--box-->
+</body>
+ 
+<script src="js/public.js"></script>
+</html>

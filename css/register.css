@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+body{ 
+margin:0; padding:0;
+font-family:\5FAE\8F6F\96C5\9ED1;
+font-size:14px;
+color:#000;
+} 
+#con{ 
+position:absolute; 
+top:0; 
+left:0;
+height:100%; 
+width:100%; 
+background-image:url(../images/register.jpg);
+background-position:top 0; 
+background-repeat: no-repeat; 
+background-attachment:fixed; 
+background-size: cover; 
+-webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */ 
+-o-background-size: cover;/* 兼容Opera */ 
+zoom: 1; 
+} 
+.font01{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:12px;
+	color:#99999b;
+	}
+.font02{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:12px;
+	color:#09C;
+	}
+.font03{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	color:#99999b;
+	}
+.font04{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:16px;
+	
+	}
+a {
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size: 12px;
+	color: #09C;
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}

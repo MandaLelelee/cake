@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+#con{ 
+position:absolute; 
+top:0; 
+left:0;
+height:auto;
+width:100%; 
+background-image:url(../images/register.jpg);
+background-position:top 0; 
+background-repeat: no-repeat; 
+background-attachment:fixed; 
+background-size: cover; 
+-webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */ 
+-o-background-size: cover;/* 兼容Opera */ 
+zoom: 1; 
+} 
+
+#box{
+	width:760px;
+	height:auto;
+    padding-bottom:30px;
+	padding-top:20px;
+    margin-left:auto;
+	margin-right:auto;
+    margin-top:44px;
+	margin-bottom:34px;
+    background-color:#fff;
+
+	}
+#center00{
+	width:705px;
+	height:31px;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom:1px #cecdcd dotted;
+	
+	}
+#center{
+	width:705px;
+	height:300px;
+	margin-top:15px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px #cecdcd solid;
+	overflow:auto;
+
+	}
+
+#centertop{
+	width:705px;
+	height:29px;
+
+	padding-top:12px;
+	float:left;
+	
+	background-color:#f9f9f9;
+	position:inherit;
+}
+.center{
+	width:100%;
+	height:27px;
+	padding-top:20px;
+	margin-top:25px;
+	position:relative;
+	float:left;
+    border-bottom:1px #cecdcd solid;
+}
+
+.center:hover{
+	cursor:hand;
+    background:#fefefe;
+	
+	}
+#center_bottom{
+	width:705px;;
+	height:31px;
+	padding-top:15px;
+	top:366px;
+	float:left;
+	background-color:#f9f9f9;
+	position:absolute;
+
+	}
+.dt1{
+	width:107px;
+	margin-left:16px;
+	text-align:left;
+	float:left;
+	}
+.dt2{
+	width:250px;
+	float:left;
+	}
+.dt3{
+	width:72px;
+	float:left;
+	}
+.dt4{
+	width:148px;
+	float:left;
+	}
+.dt5{
+	width:100px;
+	float:left;
+	}
+.dt6{
+	width:542px;
+	float:left;
+	text-align:right;
+	}
+#okbox{
+	width:705px;
+	height:34px;
+	margin-top:15px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:right;
+
+	}
+#ok{
+	margin-right:8px;
+    outline:none;
+	}
+#wordsbox{
+	width:705px;
+	height:34px;
+	margin-top:12px;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:30px;
+	border-bottom:1px #cecdcd dotted;
+	}
+#imgbox{
+	height:196px;
+	width:705px;
+	margin-top:14px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.img1{
+	width:207px;
+	height:196px;
+	float:left;
+	border:1px #dbd4d4 solid;
+	
+	}
+
+.img{
+	width:207px;
+	height:196px;
+	float:left;
+	margin-left:39px;
+	border:1px #dbd4d4 solid;
+}
+
+.img:hover .hide {
+	display: block;
+}
+
+.img1:hover .hide {
+	display: block;
+}
+
+.img .hide, .img1 .hide  {
+	width:207px;
+	height:32px;
+	margin-top:-32px;
+    background-color:#000; 
+    filter:alpha(opacity=50); 
+    opacity:0.5;
+    display: none;
+	position:absolute;
+}
+
+#imgbox dt{
+	width:154px;
+	line-height:32px;
+	color:#fff;
+	float:left;
+	margin-left:10px;
+	float:left
+}
+#imgbox dd{
+	width:29px;
+	line-height:32px;
+	color:#fff;
+	float:left;
+	}

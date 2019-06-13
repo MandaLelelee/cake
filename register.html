@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>新用户注册</title>
+<link href="css/register.css" rel="stylesheet" type="text/css" />
+<link href="css/registerdiv.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="con"><form id="form1" method="post" action="">
+  <div id="box">
+    <div id="releft" class="font04">新用户注册</div>
+    <div id="recenter">
+      <div id="center01">
+        <dt>用户名：</dt>
+        <dt>密　码：</dt>
+        <dt>确认密码：</dt>
+        <dt>电子邮箱：</dt>
+        <dt>验证码：</dt>
+      </div>
+      <div id="center02">
+      <input type="text" class="input" id="username_input"  onblur="username()"  />
+      <input type="text" id="passwd_input" class="input" />
+      <input type="text" id="passwd_sure" class="input" />
+      <input type="text" id="email_input" class="input" />
+      <input type="text" id="check_input" />
+      <dt><img src="images/check_img02.jpg" /></dt>
+      <dd ><a href="">换一张</a></dd>
+      <input type="image" src="images/re_ok.jpg" id="re_ok" onmousedown="this.src='images/re_ok_down.jpg'" onmouseup="this.src='images/re_ok.jpg'"/>
+
+      </div>
+      </div>
+    <div id="reright">
+      <div id="right01">
+      <dt class="font03">已经注册过了？</dt>
+      <dt><a href="index.html?uid=1">直接登录</a></dt>
+      <img src="images/ewm-2.jpg"  width="152px" height="152px" id="ewm-2"/>
+      <span class="font01">扫描二维码登录</span>
+      </div>
+    </div>
+  </div></form>
+</div>
+
+</body>
+</html>

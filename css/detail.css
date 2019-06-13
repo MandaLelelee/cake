@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	border:none;
+	padding:0px;
+	margin:0px;
+	}
+body{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	background-image:url(../images/bgbotom.jpg);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	background-color:#fef5f8;
+	}
+#left{
+	width:200px;
+	height:791px;
+	margin-top:20px;
+
+	float:left;
+	}
+#left01{
+	width:200px;
+	height:447px;
+	padding-top:34px;
+	float:left;
+	background-image:url(../images/list_left01bg.jpg);
+	}
+#left02{
+	width:200px;
+	height:300px;
+	margin-top:20px;
+	float:left;
+	background-image:url(../images/list_left02bg.jpg);
+	}
+#imbox1,#imbox2{
+	width:175px;
+	height:81px;
+	line-height:20px;
+	margin-left:10px;
+	margin-top:20px;
+	border-bottom:1px #eaeaea solid;
+	float:left;
+	}
+#imbox3{
+	width:175px;
+	height:71px;
+	line-height:20px;
+	margin-left:10px;
+	margin-top:20px;
+	float:left;
+	
+	}
+.dt01{
+	margin-left:20px;
+	line-height:25px;
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+	}
+.dt02{
+	width:164px;
+	padding-left:34px;
+	line-height:35px;
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:12px;
+	color:#7c7c7c;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+.dt02:hover{
+	background-color:#f7fbfd;
+	}
+#left02 img{
+	float:left;}
+
+#left02 dt{
+	width:77px;
+	margin-left:10px;
+	float:left;
+	}
+.font_12px{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:12px;
+	color:#000;
+	}
+	a {
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	color:#b89535;
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+#down{float:left;}
+#up{float:left;}
+#input1{
+	width:30px;
+	height:26px;
+	line-height:28px;
+	text-align:center;
+	float:left;
+	border:1px #eee6dd solid;
+	outline:none;
+	}
+#add{
+	width:104px;
+	height:28px;
+	margin-left:20px;
+	float:left;
+	background-color:#d3b56f;
+	outline:none;
+	color:#fff;
+	cursor:pointer;
+	}
+	#ok{
+	width:68px;
+	height:30px;
+	outline:none;
+	background-color:#d1ab42;
+	color:#fff;
+	cursor:pointer;
+	}
+#hide{
+	filter:alpha(0); 
+    opacity:0;}

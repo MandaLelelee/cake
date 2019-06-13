@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+*{  
+    margin:0px; 
+	padding:0px;
+	border:none;
+	}
+#box{
+	width:960px;
+	height:1440px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#right{
+	width:740px;
+	height:1074px;
+	float:right;
+	margin-top:40px;
+	}
+#customercenter{
+	width:740px;
+	height:120px;
+	background-image:url(../images/customercenter.jpg);
+	float:left;
+	}
+#service{
+	width:222px;
+	height:266px;
+	margin-top:20px;
+	float:left;
+	border:1px #eee6dd solid;
+	background-color:#fff;
+	}
+#history{
+	width:493px;
+	height:269px;
+	margin-top:20px;
+	float:left;
+	margin-left:20px;
+	border:1px #eee6dd solid;
+	background-color:#fff;
+	}
+#service dt{
+	line-height:35px;
+	margin-left:15px;
+	}
+#service li{
+	
+	line-height:30px;
+	margin-left:15px;
+	}
+#update{
+	width:738px;
+	height:313px;
+	float:left;
+	margin-top:20px;
+    background-color:#fff;
+	background-image:url(../images/cust-update_bg.jpg);
+	}
+#update01{
+	width:318px;
+	height:48px;
+	line-height:45px;
+	margin-left:25px;
+	float:left;
+	line-height:48px;
+	}
+#update02{
+	width:395px;
+	height:48px;
+	line-height:45px;
+	
+	float:left;
+	line-height:48px;
+	}
+#update03{
+	width:318px;
+	height:205px;
+	margin-left:25px;
+	padding-top:20px;
+	line-height:40px;
+	float:left;
+	}
+#update04{
+	width:309px;
+	height:225px;
+    float:left;
+	}
+#update4_words{
+	width:77px;
+	height:209px;
+	line-height:54px;
+	text-align:right;
+	float:left;
+	padding-top:16px;
+	}
+
+#hotbox{
+	width:738px;
+	height:318px;
+	float:left;
+	background-image:url(../images/hotbox_bg.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	margin-top:20px;
+	}
+#hot-top{
+	width:696px;
+	height:38px;
+	line-height:38px;
+	float:left;
+	margin-left:15px;
+	background-image:url(../images/new_hot.jpg);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:27px;
+	font-family:黑体;
+	font-size:14px;
+	font-weight:bold;
+	}
+#hotim1{
+	width:180px;
+	height:224px;
+	margin-left:60px;
+	margin-top:56px;
+	float:left;
+	text-align:center;
+	line-height:20px;
+	}
+#hotim2,#hotim3{
+	width:180px;
+	height:224px;
+	margin-left:54px;
+	margin-top:56px;
+	float:left;
+	text-align:center;
+		line-height:20px;
+	}
+#hotbox img{
+	margin-bottom:20px;}
+

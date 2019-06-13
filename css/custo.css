@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	border:none;
+	margin:0px;
+	pading:0px;
+	}
+
+body{
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	background-image:url(../images/bgbotom.jpg);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	background-color:#fef5f8;
+	}
+.historydt1{
+	width:60px;
+	margin-left:15px;
+	line-height:35px;
+	height:35px;
+	width:63px;
+	float:left;
+	border-bottom:2px #d1ac42 solid;
+	}
+.historydd1{
+	width:391px;
+	float:left;
+	height:35px;
+	line-height:35px;
+	border-bottom:2px #efece9 solid;
+		}
+.dt{
+	width:384px;
+	line-height:52px;
+	height:52px;
+	
+	float:left;
+	border-bottom:1px #efece9 dotted;
+	}
+
+.dd{
+	width:72px;
+	line-height:52px;
+	height:52px;
+	float:left;
+	border-bottom:1px #efece9 dotted;
+	}
+#null{
+	width:456px;
+	height:156px;
+	float:left;
+	margin-left:18px;
+	}
+#select{
+	width:456px;
+	height:49px;
+	float:left;
+	margin-left:18px;
+	}
+#select_word{
+	width:60px;
+	height:49px;
+	line-height:49px;
+	float:left;
+	}
+#selet_input{
+	width:125px;
+	height:24px;
+	margin-top:12px;
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	border:1px #d1ac42 solid;
+	outline:none;
+	}
+#select_ok{
+	width:53px;
+	height:26px;
+	background-color:#d1ac42;
+	outline:none;
+	float:left;
+	margin-top:12px;
+	color:#fff;
+	}
+.updateinput{
+		width:138px;
+		height:27px;
+		margin-top:28px;
+		padding-left:10px;
+		padding-right:10px;
+		border:1px #d1ac42 solid;
+		outline:none;
+		}
+.updateinput2{
+		width:138px;
+		height:27px;
+		margin-top:28px;
+		padding-left:10px;
+		padding-right:10px;
+		margin-top:24px;
+		border:1px #d1ac42 solid;
+		outline:none;
+		}
+#sure{
+	width:105px;
+	height:31px;
+	background-color:#d1ac42;
+	outline:none;
+	float:left;
+	margin-top:27px;
+	color:#fff;
+	}
+.hotfont02{
+	
+	font-family:\5FAE\8F6F\96C5\9ED1;
+	font-size:14px;
+	color:#ff6000;
+	}

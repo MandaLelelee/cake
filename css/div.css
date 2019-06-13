@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+
+#box{
+	width:960px;
+	height:1080px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+    }
+#dh{
+     height:43px;
+     width:879px;
+     padding-left:81px;
+	 float:left;
+	}
+#dh dt{
+	line-height:43px;
+	width:100px;
+	float:left;
+	text-align:center;
+	}
+#dh dt:hover{
+cursor:hand;
+background:#701d0e;
+}
+#top{
+	width:960px;
+	height:80px;
+	float:left;
+	text-align:left;
+	}
+#dh{
+	width:879px;
+	height:43px;
+	padding-left:81px;
+	
+	float:left;
+}
+#left01{
+	width:705px;
+	height:389px;
+	margin-top:48px;
+	
+	float:left;
+
+}
+#right01{
+	width:230px;
+	height:339px;
+	padding-top:49px;
+	margin-top:48px;
+	margin-left:25px;
+	float:right;
+    background-image:url(../images/right01.jpg);
+	}
+#right01 dt {
+    width:156px;
+	line-height:36px;
+	margin-left:15px;
+	float:left;
+	
+}
+#right01 dd {
+	margin-left:0px;
+	width:40px;
+	line-height:35px;
+	float:left;
+	text-align:center;
+}
+#r1,#r2,#r3,#r4,#r5,#r6,#r7,#r8,#r9{
+	width:100%;
+	height:35px;
+	float:left;
+
+	
+}
+#r1:hover,#r2:hover,#r3:hover,#r4:hover{
+cursor:hand;
+background:#CC9;
+}
+#r5:hover,#r6:hover,#r7:hover,#r8:hover,#r9:hover{
+cursor:hand;
+background:#CC9;
+}
+#mid{
+	width:960px;
+	height:171px;
+	float:left;
+	margin-top:32px;
+}
+#left02{
+	width:263px;
+	height:171px;
+    float:left;
+	background-image:url(../images/midbg.jpg);
+	}
+	
+.left02-top{
+	width:263px;
+	height:23px;
+	padding-top:3px;
+	float:left;
+	}
+.left02-m{
+	width:100%;
+	height:134px;
+	padding-top:10px;
+	float:left;
+	}
+
+#left02 dt{
+	margin-left:15px;
+	width:203px;
+    line-height:28px;
+	float:left;
+	
+}
+#left02 dd{
+	margin-left:0px;
+	width:45px;
+	line-height:28px;
+	float:left;
+	}
+#mid02{
+	width:263px;
+	height:171px;
+    float:left;
+    margin-left:85px;
+
+	background-image:url(../images/midbg.jpg);
+	}
+#mid02 dt{
+	margin-left:15px;
+	width:243px;
+	line-height:28px;
+	float:left;
+	}
+#right02{
+	width:263px;
+	height:171px;
+    float:left;
+    margin-left:85px;
+    background-image:url(../images/midbg.jpg);
+	}
+#right02 dt{
+    margin-left:15px;
+	width:203px;
+	line-height:28px;
+	float:left;
+}
+
+#right02 dd{
+	margin-left:0px;
+	width:45px;
+	line-height:28px;
+	float:left;
+	}
+#dg{
+	width:960px;
+	height:162px;
+	margin-top:41px;
+	float:left;
+	background-image:url(../images/dgbg.jpg);
+	}
+#dgdemo{
+	width:892px;
+	height:142px;
+    float:left;
+	margin-top:9px;
+	position: relative;
+	overflow:hidden;
+	}
+#dgdemo ul{
+	width: 1464px;
+	position: absolute;
+	height: 142px;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	float: left;
+
+}
+#dgdemo li{
+	margin-left:30px;
+	float:left;}
+.dtmar{margin-left:32px;
+	float:left;
+	width:155px;
+	height:142px}
+.dtmar-2{
+	margin-left:0px;
+	float:left;
+	width:155px;
+	height:142px}
+
+#left-j{
+	width:33px;
+	height:115px;
+	padding-top:47px;
+	margin-right:2px;
+	cursor:pointer;
+	float:left;
+	}
+#right-j{
+    width:33px;
+	height:115px;
+	padding-top:47px;
+	float:right;
+	cursor:pointer;
+	}
+
+#buttom{
+	width:960px;
+	height:82px;
+	margin-top:24px;
+	padding-top:8px;
+	float:left;
+	line-height:32px;
+	text-align:left;
+	
+	}
+#buttom span{
+	margin-left:20px;
+	}
+#buttom dt{
+
+	width:500px;
+	line-height:40px;
+	float:left;
+	margin-top:10px;
+}
+
+#buttom dd{
+	margin-left:5px;
+	width:455px;
+	line-height:36px;
+	float:left;
+	text-align:left;
+	margin-top:10px;
+	}
+#buttom span{
+	margin-left:120px;
+	}
